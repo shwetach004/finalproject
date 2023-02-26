@@ -1,0 +1,542 @@
+@media(max-width:1476px){
+  .heading h1 {
+      color: gold;
+      margin-top: -4rem;
+    }
+    .content {
+      height: 60rem;
+      width: 94%;
+    }
+    .content p {
+      padding: 1rem;
+      color: white;
+      text-align: justify;
+      letter-spacing: 0.1rem;
+      line-height: 2rem;
+    }
+    .home {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.78),rgba(30, 30, 30, 0.7)),url("images/background.jpg");
+      width: 100%;
+      height: 96rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    /* courses */
+    .courses {
+      width: 100%;
+      height: 68vh;
+      margin-top: 2vh;
+      text-align: center;
+    }
+    .home-courses {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.78),rgba(30, 30, 30, 0.7)),url("images/background.jpg");
+      width: 100%;
+      height: 51rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding-top: 4rem;
+    }
+}
+@media(max-width:1345px){
+    #prince-msg {
+        height: 66rem;
+        width: 100vw;
+        padding-top: 3rem;
+      }
+      nav .navigation ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #84848433;
+        width: 102vw;
+        padding-left: 0rem;
+        margin-top: 0.3rem;
+      }
+      nav .navigation ul li {
+        list-style: none;
+        margin-left: 1rem;
+      }
+      nav .navigation ul li a {
+        text-decoration: none;
+        color: rgb(253, 253, 253);
+        font-size: 1.5rem;
+        font-weight: 500;
+        transition: 0.3s ease;
+      }
+      /* courses */
+      .home-courses {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.78),rgba(30, 30, 30, 0.7)),url("images/background.jpg");
+        width: 100%;
+        height: 61rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 4rem;
+      }
+      .courses {
+        width: 100%;
+        height: 68vh;
+        margin-top: -17vh;
+        text-align: center;
+      }
+}
+@media(max-width:986px) {
+  html{
+      font-size: 80%;
+  }
+  .courses {
+    width: 100%;
+    height: 68vh;
+    margin-top: 8vh;
+    text-align: center;
+  }
+  .home-courses {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.78),rgba(30, 30, 30, 0.7)),url("images/background.jpg");
+    width: 100%;
+    height: 72rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 4rem;
+  }
+}
+@media(max-width:700px){
+    html{
+        font-size: 60%;
+    }
+    #home {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.78),rgba(30, 30, 30, 0.7)),url("images/background.jpg");
+      width: 100%;
+      height: 79rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding-top: 4rem;
+    }
+      #home h2 {
+        color: #fff;
+        font-size: 2.2rem;
+        letter-spacing: 0.1rem;
+      }
+      #home p {
+        width: 28rem;
+        color: #fff;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        text-align: justify;
+      }
+      #home a {
+        text-decoration: none;
+        font-size: 1.4rem;
+        padding: 0.7rem 1rem;
+        font-weight: 600;
+        border-radius: 0.4rem;
+      }
+      nav .navigation ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #84848433;
+        width: 102vw;
+        padding-left: 0rem;
+        margin-top: 0.3rem;
+      }
+      nav .navigation ul li {
+        list-style: none;
+        margin-left: 1rem;
+      }
+      nav .navigation ul li a {
+        text-decoration: none;
+        color: rgb(253, 253, 253);
+        font-size: 1.3rem;
+        font-weight: 600;
+        transition: 0.3s ease;
+      }
+      #features h1 {
+        color: gold;
+        margin-top: 2rem;
+        margin-bottom: 0.3rem;
+        font-size: 4rem;
+      }
+      #features p {
+        padding: 0.8rem;
+        color: gray;
+        font-size: 1.3rem;
+      }
+      #features .fea-box {
+        background-color: rgb(225, 225, 225);
+        text-align: center;
+        padding: 0.6rem;
+        margin-top: 0.7rem;
+        display: inline-block;
+        margin-left: 0vh;
+        border-radius: 0.5rem;
+        width: 34rem;
+      }
+      #features .fea-box h3 {
+        font-size: 2rem;
+        font-weight: 600;
+        color: rgba(19, 130, 62, 0.72);
+        padding: 0.3rem 0 0.3rem 0;
+      }
+      #features .fea-box p {
+        font-size: 1.5rem;
+        font-weight: 300;
+        color: #646363;
+        line-height: 1.7rem;
+        letter-spacing: 0.05rem;
+        width: 32rem;
+      }
+      #course h1 {
+        color: gold;
+        margin-top: -7rem;
+        margin-bottom: 0.3rem;
+        font-size: 4rem;
+      }
+      #course .course p {
+        color: grey;
+        line-height: 1.6rem;
+        letter-spacing: 0.1rem;
+        font-size: 1.4rem;
+      }
+      #course .btns {
+        margin-top: 8rem;
+      }
+      .slide {
+        height: 41vh;
+      }
+      .pr-msg {
+        background-color: gold;
+        height: 3rem;
+        padding: 0.3rem 0;
+        color: white;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 1rem;
+        width: 21.7rem;
+        margin-left: 0.4rem;
+        font-size: 1.6rem;
+      }
+      #prince-msg {
+        height: 59vh;
+        width: 100vw;
+        padding-top: 3rem;
+      }
+      .pl-content {
+        float: left;
+        width: 42rem;
+        padding: 1rem 2rem;
+        height: fit-content;
+        text-align: justify;
+      }
+      .pl-content h5{
+        font-size: 1.5rem;
+      }
+      .pl-content p{
+            color: gray;
+            font-size: 1.5rem;
+            letter-spacing: 0.1rem;
+            line-height: 1.8rem;
+      }
+      #container-change {
+        padding: 2rem;
+        height: fit-content;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.78),rgba(30, 30, 30, 0.7)),url("images/bg.jpg");
+      }
+      /* About */
+      .content {
+        height: 57rem;
+        width: 100vw;
+      }
+      .content p {
+        padding: 1rem;
+        color: white;
+        text-align: justify;
+        letter-spacing: 0.1rem;
+        line-height: 2rem;
+        font-size: 1.5rem;
+      }
+      /* Staff */
+      .heading-s h1 {
+        color: gold;
+        margin-top: -1rem;
+        margin-bottom: 0rem;
+        font-size: 4rem;
+      }
+      .content-s {
+        height: 53rem;
+        width: 33rem;
+      }
+      .content-s .para {
+        text-align: justify;
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        text-decoration: none;
+        padding: 1rem;
+        color: white;
+      }
+      /* courses */
+      .para {
+        text-align: justify;
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 1.2rem;
+        line-height: 3rem;
+        text-decoration: none;
+        padding: 1rem 3rem;
+        letter-spacing: .1rem;
+      }
+      .style1 {
+        font-size: 1.1rem;
+        color: white;
+      }
+      /* contact */
+      .col1 {
+        color: white;
+        text-align: left;
+        font-size: 1.6rem;
+        padding: 1rem;
+      }
+      .col2 {
+        color: white;
+        font-size: 1.6rem;
+        width: 29rem;
+      }
+      .txt {
+        width: 28rem;
+        background-color: rgba(184, 188, 199, 0.19);
+        border: 2px solid rgba(255, 255, 255, 0.67);
+        color: white;
+        height: 3.2rem;
+        margin-left: 1rem;
+        padding: 1rem;
+      }
+      #txt {
+        width: 28rem;
+        background-color: rgba(184, 188, 199, 0.19);
+        border: 2px solid rgba(255, 255, 255, 0.67);
+        color: white;
+        height: 3.2rem;
+        margin-left: 1rem;
+        padding: 0 .9rem;
+      }
+      .b {
+        padding-left: 12rem;
+      }
+      .bttn {
+        height: 3rem;
+        width: 7rem;
+        background-color: gold;
+        text-align: center;
+        color: white;
+        font-size: 1.4rem;
+        border: 2px solid goldenrod;
+        margin-left: 1rem;
+      }
+      .bttn:hover{
+        height: 3rem;
+        width: 7rem;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        color: gold;
+        font-size: 1.4rem;
+        border: 2px solid goldenrod;
+        margin-left: 1rem;
+      }
+      
+#home h3{
+  font-family: times new roman;
+  text-align: center;
+  margin-top: -20rem;
+  color: gold;
+  font-weight: bold;
+  font-size: 3rem;
+
+}
+      /* placement */
+      #pl-slides {
+        height: 32rem;
+        width: auto;
+        margin-top: -24rem;
+      }
+     
+}
+@media(max-width:643px){
+  #prince-msg {
+    height: 95vh;
+    width: 100vw;
+    padding-top: 3rem;
+  }
+  .flex-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.78),rgba(30, 30, 30, 0.7)),url("images/background.jpg");
+    width: 100%;
+    height: 84rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 4rem;
+  }
+}
+@media(max-width:500px){
+  #noti1 {
+    background: rgba(223, 223, 222, 0.9);
+    height: 19rem;
+    width: 21rem;
+  }
+  #prince-msg {
+    width: 100vw;
+    padding-top: 3rem;
+    height: 105vh;
+  }
+  .flex-footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+    .pl-content {
+        float: left;
+        width: 35rem;
+        padding: 1rem 2rem;
+        height: fit-content;
+        text-align: justify;
+      } 
+      .home {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.78),rgba(30, 30, 30, 0.7)),url("images/background.jpg");
+        width: 100%;
+        height: 122rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      #home {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.78),rgba(30, 30, 30, 0.7)),url("images/background.jpg");
+        width: 100%;
+        height: 84rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 4rem;
+      }
+      .content {
+        height: 73rem;
+        width: 90%;
+margin-top: -13rem;
+      }
+      .heading h1 {
+  color: gold;
+  margin-top: -17rem;
+}
+      .gallery-teacher {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+      }
+      /* courses */
+      .courses {
+        width: 100%;
+        height: 68vh;
+        margin-top: -30vh;
+        text-align: center;
+      }
+      .home-courses{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.78),rgba(30, 30, 30, 0.7)),url("images/background.jpg");
+        width: 100%;
+        height: 107rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 4rem;
+      }
+      /* placement */
+      #pl-slides {
+        height: 32rem;
+        width: auto;
+        margin-top: -24rem;
+        padding: 3rem;
+      }
+      .pl-slides{
+      height: 39rem;
+      width: 45rem;
+      }
+      .train-para{
+        float: left;
+font-size: 1.6rem;
+color: rgba(0, 0, 0, 0.81);
+text-align: justify;
+padding: 1rem;
+      }
+      .pl-tea-img{
+margin-left: 1rem;
+float: left;
+font-size: 1rem;
+}
+}
+@media(max-width:400px){
+  .flex-footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+}
